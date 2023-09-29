@@ -1,5 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+
   color: var(--white);
   background-color: var(--dark);
 }
