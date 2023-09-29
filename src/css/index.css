@@ -13,3 +13,6 @@
 @import url('./layout/your-order.css');
 @import url('./layout/testimonials.css');
 @import url('./layout/footer.css');
+
+/* MODAL WINDOW */
+@import url(./layout/modal-window.css);
