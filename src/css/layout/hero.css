@@ -55,13 +55,14 @@
     position: relative;
   }
 
-  .title-wrap {
+  .hero-title-wrap {
     display: flex;
   }
 
   .hero-main-img {
     animation: left-to-rigth 1200ms ease both;
   }
+  
   @keyframes left-to-rigth {
     0% {
       opacity: 0;
@@ -75,6 +76,7 @@
       transform: translateX(0);
     }
   }
+
   .hero-title {
     margin-top: 26px;
     margin-right: 40px;
@@ -83,6 +85,7 @@
     line-height: 1.19;
     animation: top-to-bottom 1200ms ease both;
   }
+
   @keyframes top-to-bottom {
     0% {
       opacity: 0;
@@ -96,6 +99,7 @@
       transform: translateY(0);
     }
   }
+
   .hero-icon-wrap {
     display: flex;
     gap: 16px;
@@ -110,10 +114,12 @@
     letter-spacing: -0.04em;
     text-align: center;
   }
+
   .hero-btn {
     margin-left: 140px;
     animation: right-to-left 1200ms ease both;
   }
+
   @keyframes right-to-left {
     0% {
       opacity: 0;
@@ -127,6 +133,7 @@
       transform: translateX(0);
     }
   }
+
   .ornament-img-wrap {
     display: block;
     position: absolute;
@@ -140,29 +147,62 @@
 /* ==================DESKTOP 1280px================== */
 
 @media screen and (min-width: 1280px) {
+
   .hero-section {
     padding-top: 50px;
     padding-bottom: 75px;
     flex-direction: row;
   }
+
   .hero-main-img {
+    margin-right: 40px;
   }
-  .hero-content-wrap {
+
+  .hero-content-wrap{
+    flex-grow: 1;
   }
-  .title-wrap {
+
+  .hero-title-wrap {
+    justify-content: space-between;
   }
+
   .hero-title {
+    width: 518px;
+    margin-right: 0;
+    margin-top: 100px;
   }
-  .accent {
-  }
+  
   .hero-icon-wrap {
+    align-self: flex-start;
+    margin-left: auto;
   }
-  .hero-made-description {
-  }
-  .hero-btn {
-  }
+  
+  
   .ornament-img-wrap {
+    right: 115px;
+    bottom: 75px;
   }
-  .ornament-hero-img {
-  }
+  
+}
+
+/* ======================DESKTOP 1440px================ */
+
+@media screen and (min-width: 1440px) {
+   
+    .hero-section{
+        align-items: center;
+    }
+
+    .hero-title{
+        margin-top: 0;
+        margin-right: 60px;
+        width: 625px;
+        font-size: 64px;
+        line-height: 1.16;
+    }
+
+    .ornament-img-wrap{
+        right: 100px;
+    }
+    
 }
