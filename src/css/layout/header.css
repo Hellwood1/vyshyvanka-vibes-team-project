@@ -1,7 +1,7 @@
 .header-section {
   margin-top: 20px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   display: flex;
   align-items: center;
 }
@@ -41,11 +41,104 @@
 }
 
 .mobile-menu-open-btn {
-    line-height: 0;
-    background-color: transparent;
-    border: none;
+  line-height: 0;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===================TABLET================= */
+
+@media screen and (min-width: 768px) {
+  .social-list {
+    margin-right: 20px;
+  }
+}
+
+/* ====================DESKTOP 1280px */
+
+@media screen and (min-width: 1280px) {
+  .header-section {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .logo-header {
+    margin-right: 60px;
+  }
+
+  .header-navigation {
     display: flex;
-    justify-content: center;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 25px;
     align-items: center;
-    
+  }
+
+  .header-nav-links {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.28;
+    text-transform: uppercase;
+    transition: color var(--timing-function);
+  }
+
+  .header-nav-links:hover,
+  .header-nav-links:focus {
+    color: var(--yellow);
+  }
+
+  .phone-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 193px;
+    height: 48px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    text-transform: uppercase;
+    line-height: 1.43;
+    margin-left: auto;
+    margin-right: 20px;
+    transition: border-color var(--timing-function);
+  }
+
+  .phone-link:hover,
+  .phone-link:focus{
+    border-color: var(--yellow);
+  }
+
+  .social-list {
+    margin-left: 0;
+  }
+
+  .social-link {
+    transition: scale var(--timing-function), border-color var(--timing-function);
+  }
+
+  .social-link:hover,
+  .social-link:focus{
+    scale: 1.15;
+    border-color: var(--yellow);
+    animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+  }
+  @keyframes trambling-animation {
+    0%, 50%, 100%{
+      transform: rotate(0deg);
+    }
+    10%, 30%{
+      transform: rotate(-15deg);
+    }
+    20%, 40%{
+      transform: rotate(15deg);
+    }
+  }
+
+  .mobile-menu-open-btn {
+    display: none;
+  }
 }
