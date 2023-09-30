@@ -24,7 +24,7 @@
 /* DESKTOP 1280*/
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1282;
+    width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
   }
