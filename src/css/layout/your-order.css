@@ -222,7 +222,11 @@
   }
 
   .order-section {
-    background-position-y: 85.5%;
+    background-position-y: 93%;
+  }
+
+  .order-form-btn {
+    margin-bottom: unset;
   }
 }
 
