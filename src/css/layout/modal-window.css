@@ -1,0 +1,118 @@
+.modal-window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 274px;
+  height: 100%;
+  padding: 20px 20px 184px 20px;
+  z-index: 999;
+
+  background-color: var(--yellow);
+  background-image: url('../../img/modal-window/modal-bg-mobile.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 104%;
+  background-size: 314px;
+
+  transform: translateX(100%);
+  transition: transform var(--timing-function);
+}
+
+.modal-window.is-open {
+  transform: translateX(0);
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 320px),
+  screen and (min-resolution: 2dppx) and (min-width: 320px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
+  .modal-window {
+    background-image: url('../../img/modal-window/modal-bg-mobile@2x.png');
+  }
+}
+
+/* Позиціонування верхнього блоку */
+.modal-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 186px;
+}
+
+/* Позиціонування навігації в мобільному меню */
+.modal-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 20px;
+}
+
+/* Типографія елементів*/
+.modal-telephone {
+  color: var(--dark);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16em;
+  text-transform: uppercase;
+
+  padding: 12px 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+}
+
+.modal-close-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.modal-close-icon {
+  stroke: var(--dark);
+}
+
+.modal-nav-link {
+  color: var(--dark);
+  line-height: 1.28em;
+  text-transform: uppercase;
+}
+
+/* TABLET  */
+
+@media screen and (min-width: 768px) {
+  .modal-window {
+    width: 380px;
+    padding: 20px 32px 0px 32px;
+    z-index: 999;
+
+    background-color: var(--yellow);
+    background-image: url('../../img/modal-window/modal-bg-tablet.png');
+    background-repeat: no-repeat;
+    background-size: 384px;
+    background-position: bottom;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 320px),
+    screen and (min-resolution: 2dppx) and (min-width: 320px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
+    .modal-window {
+      background-image: url('../../img/modal-window/modal-bg-tablet@2x.png');
+    }
+  }
+
+  .modal-wrapper {
+    margin-bottom: 224px;
+  }
+
+  .modal-nav-list {
+    row-gap: 25px;
+  }
+
+  .modal-telephone {
+    font-size: 14px;
+    line-height: 1.42em;
+    padding: 14px 28px;
+  }
+
+  .modal-close-icon {
+    width: 44px;
+    height: 44px;
+  }
+}
