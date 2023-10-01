@@ -1,5 +1,54 @@
 <section class="order-section" id="customer-order">
   <div class="order-background-container"></div>
+  <div class="order-form-container container">
+    <div class="order-form-wrap">
+      <h2 class="form-title">
+        <span class="accent">Your order</span> is our priority: Personalized
+        approach and quality of service
+      </h2>
+      <form class="order-form">
+        <div class="order-form-wrap">
+          <label class="order-form-label" for="user-name"></label>
+          <input
+            class="order-form-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Enter your full name"
+            required
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄ]"
+          />
+
+          <label for="user-email" class="order-form-label"></label>
+          <input
+            class="order-form-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="textarea-container">
+          <label for="user-comments" class="order-form-label"></label>
+          <textarea
+            class="order-textarea"
+            id="user-comments"
+            name="user-comments"
+            placeholder="Comments"
+          ></textarea>
+        </div>
+        <button class="order-form-btn" type="submit">
+          Send
+          <div class="container-svg">
+            <svg width="26" height="19">
+              <use href="./img/sprite.svg#icon-arrow-icon"></use>
+            </svg>
+          </div>
+        </button>
+      </form>
+    </div>
+
   <div class="order-form-container">
     <h2 class="your-order-title">
       <span class="order-span">Your order</span> is our priority: Personalized
@@ -16,28 +65,36 @@
         required
       />
 
-      <label for="user-email" class="order-form-label"></label>
-      <input
-        class="order-form-input"
-        type="email"
-        name="user-email"
-        id="user-email"
-        placeholder="Enter your email"
-        required
+
+    <picture class="order-pic">
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          ./img/your-order/shirt-and-jaket-desktop-1440.jpg    1x,
+          ./img/your-order/shirt-and-jaket-desktop-1440@2x.jpg 2x
+        "
       />
-      <label for="user-comments" class="order-form-label"></label>
-      <textarea
-        class="order-textarea"
-        id="user-comments"
-        name="user-comments"
-        placeholder="Comments"
-      ></textarea>
-      <button class="order-form-btn" type="submit">
-        Send
-        <svg width="26" height="10">
-          <use href="../img/sprite.svg#icon-arrow-icon"></use>
-        </svg>
-      </button>
-    </form>
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./img/your-order/shirt-and-jaket-desktop-1280.jpg    1x,
+          ./img/your-order/shirt-and-jaket-desktop-1280@2x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/your-order/shirt-and-jaket-tablet.jpg    1x,
+          ./img/your-order/shirt-and-jaket-tablet@2x.jpg 2x
+        "
+      />
+      <img
+        class="order-img"
+        src="./img/your-order/shirt-and-jaket-tablet.jpg"
+        alt="girl-in-shirt-and-jacket"
+        width="638"
+        height="521"
+      />
+    </picture>
   </div>
 </section>
