@@ -42,7 +42,7 @@
   border-color: var(--yellow);
 }
 
-.ornament-img-wrap {
+.ornament-img {
   display: none;
 }
 
@@ -134,13 +134,12 @@
     }
   }
 
-  .ornament-img-wrap {
+  .ornament-img {
     display: block;
     position: absolute;
-    bottom: 50px;
+    bottom: -47px;
     right: 32px;
-    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-    overflow: hidden;
+   
   }
 }
 
@@ -178,9 +177,9 @@
   }
   
   
-  .ornament-img-wrap {
-    right: 115px;
-    bottom: 75px;
+  .ornament-img {
+    right: 100px;
+    bottom: -22px;
   }
   
 }
@@ -201,8 +200,6 @@
         line-height: 1.16;
     }
 
-    .ornament-img-wrap{
-        right: 100px;
-    }
+    
     
 }
