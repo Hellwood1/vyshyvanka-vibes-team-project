@@ -1,3 +1,8 @@
+.order-section {
+  padding-top: 50px;
+  padding-bottom: 40.5px;
+}
+
 .order-background-container {
   background-image: url(../../img/your-order/girl-in-shirt-mobile.jpg);
   background-repeat: no-repeat;
@@ -8,7 +13,7 @@
   margin-bottom: 80px;
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 376px),
+@media screen and (min-resolution: 192dpi) and (min-width: 375px),
   screen and (min-resolution: 2dppx) and (min-width: 375px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
   .order-background-container {
@@ -16,7 +21,7 @@
   }
 }
 
-.form-text {
+.form-title {
   color: var(--white);
   font-family: Manrope;
   font-size: 32px;
@@ -25,14 +30,6 @@
   letter-spacing: -0.03em;
   margin-bottom: 40px;
   max-width: 335px;
-}
-
-.order-span {
-  color: var(--yellow);
-}
-
-.order-img {
-  display: none;
 }
 
 .order-form-input {
@@ -45,6 +42,20 @@
   background-color: transparent;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
+  transition: border-color var(--timing-function);
+  outline: transparent;
+}
+
+.order-form-input::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.order-form-input:focus {
+  border-color: rgba(252, 249, 249, 0.6);
 }
 
 .order-textarea {
@@ -60,6 +71,11 @@
   border-radius: 8px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
+  outline: transparent;
+}
+
+.order-textarea:focus {
+  border-color: rgba(252, 249, 249, 0.6);
 }
 
 .textarea-container {
@@ -86,3 +102,132 @@
   cursor: pointer;
   margin: 0 auto;
 }
+
+.order-form-btn:hover,
+.order-form-btn:focus {
+  border-color: var(--yellow);
+}
+
+.order-img {
+  display: none;
+}
+
+/* .order-form-container {
+  background-image: url(../../img/your-order/girl-in-shirt-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 550px;
+  margin-bottom: 80px;
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 376px),
+  screen and (min-resolution: 2dppx) and (min-width: 375px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
+  .order-form-container {
+    background-image: url(../../img/your-order/girl-in-shirt-mobile@2x.jpg);
+  }
+} */
+
+/* ====================================TABLET ========================================*/
+@media screen and (min-width: 768px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .order-section {
+    padding-bottom: 50px;
+  }
+
+  .order-background-container {
+    background-image: url(../../img/your-order/girl-in-shirt-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 776px;
+    margin-bottom: 80px;
+  }
+
+  .form-title {
+    color: var(--white);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.32;
+    letter-spacing: -0.03em;
+    max-width: 542px;
+  }
+
+  .order-form-input {
+    max-width: 508px;
+  }
+
+  .order-form-input::placeholder {
+    font-size: 16px;
+  }
+
+  .order-textarea {
+    max-width: 508px;
+  }
+
+  .order-form-btn {
+    font-size: 16px;
+    max-width: 168px;
+    height: 50px;
+    margin: 0;
+    padding: 14px 39px;
+    margin-bottom: 100px;
+  }
+
+  .order-img {
+    display: block;
+    border-radius: 4px;
+    height: 521px;
+    margin-left: auto;
+  }
+
+  .order-section {
+    background-image: url(../../img/your-order/background/your-order-bg-desktop-tablet.png);
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 100%;
+    background-size: 322px 484px;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .order-background-container {
+    background-image: url(../../img/your-order/girl-in-shirt-tablet@2x.jpg);
+  }
+  .order-section {
+    background-image: url(../../img/your-order/background/your-order-bg-desktop-tablet@2x.png);
+  }
+}
+/* ====================================TABLET ========================================*/
+
+/* ====================================DESKTOP1280 ========================================*/
+@media screen and (min-width: 1280px) {
+  .order-background-container {
+    background-image: url(../../img/your-order/girl-in-shirt-desktop-1280.jpg);
+    min-width: 1282px;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .order-background-container {
+    background-image: url(../../img/your-order/girl-in-shirt-desktop-1280@2x.jpg);
+  }
+  .order-section {
+    background-image: url(../../img/your-order/background/your-order-bg-desktop-tablet@2x.png);
+  }
+}
+/* ====================================DESKTOP1280 ========================================*/
+/* ====================================DESKTOP1440 ========================================*/
+/* ====================================DESKTOP1440 ========================================*/
