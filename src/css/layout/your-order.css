@@ -127,9 +127,6 @@
 
   .order-background-container {
     background-image: url(../../img/your-order/girl-in-shirt-tablet.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     width: 100%;
     min-height: 776px;
     margin-bottom: 80px;
