@@ -22,22 +22,16 @@
 }
 
 .form-title {
-  color: var(--white);
-  font-family: Manrope;
   font-size: 32px;
   font-weight: 500;
   line-height: 1.37;
   letter-spacing: -0.03em;
   margin-bottom: 40px;
-  max-width: 335px;
 }
 
 .order-form-input {
-  display: flex;
   width: 100%;
   padding: 14px 16px;
-  align-items: flex-start;
-  gap: 8px;
   margin-bottom: 26px;
   background-color: transparent;
   border-radius: 15px;
@@ -76,6 +70,14 @@
 
 .order-textarea:focus {
   border-color: rgba(252, 249, 249, 0.6);
+}
+
+.order-textarea::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
 }
 
 .textarea-container {
@@ -248,6 +250,12 @@
 
   .form-title {
     max-width: 666px;
+  }
+
+  .order-form-input {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
   }
 }
 
