@@ -38,6 +38,8 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   transition: border-color var(--timing-function);
   outline: transparent;
+
+  color: var(--white);
 }
 
 .order-form-input:focus {
@@ -58,6 +60,8 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
   outline: transparent;
+
+  color: var(--white);
 }
 
 .order-textarea:focus {
