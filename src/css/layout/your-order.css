@@ -40,14 +40,6 @@
   outline: transparent;
 }
 
-.order-form-input::placeholder {
-  color: rgba(252, 249, 249, 0.5);
-  font-family: Manrope;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-
 .order-form-input:focus {
   border-color: rgba(252, 249, 249, 0.6);
 }
@@ -72,9 +64,9 @@
   border-color: rgba(252, 249, 249, 0.6);
 }
 
+.order-form-input::placeholder,
 .order-textarea::placeholder {
   color: rgba(252, 249, 249, 0.5);
-  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.02em;
