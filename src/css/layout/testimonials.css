@@ -1,0 +1,14 @@
+/* ==== Mobile ==== */
+
+.testimonials-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.testimonials-title {
+  color: var(--white);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.96px;
+}
