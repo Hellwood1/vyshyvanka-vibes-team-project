@@ -53,7 +53,7 @@
 
 @media screen and (min-width: 768px) {
   .about-us-container {
-    padding-top: 42px;
+    padding-top: 50px;
     padding-bottom: 50px;
   }
 
@@ -90,7 +90,7 @@
 
 @media screen and (min-width: 1280px) {
   .about-us-container {
-    padding-top: 96.32px;
+    padding-top: 75px;
     padding-bottom: 80px;
   }
 
@@ -125,11 +125,6 @@
 /* ======================DESKTOP 1440px================ */
 
 @media screen and (min-width: 1440px) {
-  .about-us-container {
-    padding-top: 121px;
-    padding-bottom: 80px;
-  }
-
   .about-us-text {
     width: 481px;
   }

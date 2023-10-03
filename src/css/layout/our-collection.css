@@ -1,5 +1,6 @@
 .our-colection {
-  margin-bottom: 80px;
+  padding-top: 18px;
+  padding-bottom: 80px;
 }
 .name-colections {
   margin-top: 18px;
@@ -25,11 +26,21 @@
 }
 
 @media screen and (min-width: 768px) {
+  .our-colection {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
   .name-colections {
     font-size: 44px;
   }
 }
 @media screen and (min-width: 1280px) {
+  .our-colection {
+    padding-top: 70px;
+    padding-bottom: 150px;
+  }
+
   .list-colections {
     gap: 40px 20px;
   }

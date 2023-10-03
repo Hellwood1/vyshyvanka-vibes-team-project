@@ -1,6 +1,5 @@
-.order-section {
-  padding-top: 50px;
-  padding-bottom: 40.5px;
+.order-form-container {
+  padding-top: 80px;
 }
 
 .order-background-container {
@@ -10,7 +9,6 @@
   background-size: cover;
   width: 100%;
   min-height: 550px;
-  margin-bottom: 80px;
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 375px),
@@ -113,6 +111,7 @@
 /* ====================================TABLET ========================================*/
 @media screen and (min-width: 768px) {
   .order-form-container {
+    padding-top: 100px;
     padding-bottom: 80px;
   }
 
@@ -182,10 +181,6 @@
 
 /* ====================================DESKTOP1280 ========================================*/
 @media screen and (min-width: 1280px) {
-  .order-section {
-    padding-bottom: 75px;
-  }
-
   .order-background-container {
     background-image: url(../../img/your-order/girl-in-shirt-desktop-1280.jpg);
   }
@@ -194,6 +189,8 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 50px;
+
+    padding-top: 150px;
   }
 
   .order-form-wrap {
@@ -227,10 +224,6 @@
 
 /* ====================================DESKTOP1440 ========================================*/
 @media screen and (min-width: 1440px) {
-  .order-section {
-    padding-top: 75px;
-  }
-
   .order-background-container {
     background-image: url(../../img/your-order/girl-in-shirt-desktop-1440.jpg);
   }
