@@ -124,7 +124,6 @@
   }
 
   .form-title {
-    color: var(--white);
     font-size: 44px;
     font-style: normal;
     font-weight: 500;
@@ -156,7 +155,6 @@
 
   .order-img {
     display: block;
-    border-radius: 4px;
     height: 521px;
     margin-left: auto;
   }
@@ -190,7 +188,6 @@
 
   .order-background-container {
     background-image: url(../../img/your-order/girl-in-shirt-desktop-1280.jpg);
-    /* background-size: contain; */
   }
 
   .order-form-container {
