@@ -1,6 +1,6 @@
 .footer-section {
-  min-height: 649px;
   padding-top: 40px;
+  padding-bottom: 292px;
   background-image: url('../../img/footer/footer-bg-mobile.png');
   background-repeat: no-repeat;
   background-position-x: center;
@@ -109,11 +109,7 @@
 
 @media screen and (min-width: 1280px) {
   .footer-section {
-    height: 363px;
-    padding-bottom: 40px;
     background-image: url('../../img/footer/footer-bg-desktop-1280.png');
-    background-position: right;
-    background-size: contain;
   }
 
   .footer-title {
@@ -141,7 +137,5 @@
 @media screen and (min-width: 1440px) {
   .footer-section {
     background-image: url('../../img/footer/footer-bg-desktop-1440.png');
-    background-position: right;
-    background-size: contain;
   }
 }
