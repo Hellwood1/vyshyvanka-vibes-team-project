@@ -189,10 +189,11 @@
 
   .order-form-wrap {
     display: block;
+    
   }
 
   .order-pic {
-    max-width: 524px;
+    min-width: 524px;
   }
 
   .order-form-btn {
@@ -219,9 +220,11 @@
   }
 
   .form-title {
-    max-width: 666px;
+    min-width: 666px;
   }
-
+.order-form-wrap{
+  min-width: 666px
+}
   .order-form-input {
     display: flex;
     align-items: flex-start;

@@ -29,7 +29,9 @@
     padding-top: 50px;
     padding-bottom: 100px;
   }
-
+  .item-colection {
+    width: calc((100% - 20px) / 2);
+  }
   .name-colections {
     font-size: 44px;
   }
@@ -39,7 +41,9 @@
     padding-top: 70px;
     padding-bottom: 150px;
   }
-
+  .item-colection {
+    width: calc((100% - 40px) / 3);
+  }
   .list-colections {
     gap: 40px 20px;
   }
