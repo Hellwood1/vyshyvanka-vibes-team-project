@@ -79,9 +79,6 @@
 }
 
 .order-form-btn {
-  color: var(--white);
-  font-family: Manrope;
-  font-size: 14px;
   font-weight: 600;
   letter-spacing: -0.04;
   text-transform: uppercase;
@@ -119,7 +116,6 @@
     background-image: url(../../img/your-order/girl-in-shirt-tablet.jpg);
     width: 100%;
     min-height: 776px;
-    margin-bottom: 80px;
   }
 
   .form-title {
@@ -128,7 +124,7 @@
     font-weight: 500;
     line-height: 1.32;
     letter-spacing: -0.03em;
-    max-width: 542px;
+    width: 542px;
   }
 
   .order-form-input {
@@ -154,15 +150,13 @@
 
   .order-img {
     display: block;
-    height: 521px;
     margin-left: auto;
   }
 
   .order-form-container {
     background-image: url(../../img/your-order/background/your-order-bg-desktop-tablet.png);
     background-repeat: no-repeat;
-    background-position-x: 0;
-    background-position-y: 100%;
+    background-position: bottom left;
     background-size: 322px 484px;
   }
 }
@@ -189,7 +183,7 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 50px;
-
+    padding-bottom: 0;
     padding-top: 150px;
   }
 
@@ -201,12 +195,8 @@
     max-width: 524px;
   }
 
-  .order-form-container {
-    background-position-y: 66%;
-  }
-
   .order-form-btn {
-    margin-bottom: unset;
+    margin-bottom: 0;
   }
 }
 
@@ -230,10 +220,6 @@
 
   .form-title {
     max-width: 666px;
-  }
-
-  .order-form-container {
-    background-position-x: -0.5%;
   }
 
   .order-form-input {
