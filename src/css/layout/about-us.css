@@ -28,14 +28,27 @@
 .about-us-text {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 20px;
   color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
   line-height: normal;
   letter-spacing: -0.04em;
 }
 
 .about-us-img {
+  background-image: url(../../img/about-us/background/about-us-bg-mobile.png);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  background-size: 251px 408px;
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 375px),
+  screen and (min-resolution: 2dppx) and (min-width: 375px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
+  .about-us-img {
+    background-image: url(../../img/about-us/background/about-us-bg-mobile@2x.png);
+  }
 }
 
 /* =====================TABLET================== */
@@ -49,8 +62,36 @@
   .about-us-background-container {
     gap: 40px;
   }
+
+  .about-us-title {
+    color: var(--white);
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+  }
+
+  .about-us-text {
+    font-size: 16px;
+    letter-spacing: -0.04em;
+  }
+
+  .about-us-img {
+    background-image: url(../../img/about-us/background/about-us-bg-tablet.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-size: 368px 484px;
+  }
 }
 
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .about-us-img {
+    background-image: url(../../img/about-us/background/about-us-bg-tablet@2x.png);
+  }
+}
 /* ==================DESKTOP 1280px================== */
 
 @media screen and (min-width: 1280px) {
@@ -70,6 +111,21 @@
   .about-us-text {
     width: 436px;
   }
+
+  .about-us-img {
+    background-image: url(../../img/about-us/background/about-us-bg-desktop-1280.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-size: 384px 484px;
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .about-us-img {
+    background-image: url(../../img/about-us/background/about-us-bg-desktop-1280@2x.png);
+  }
 }
 
 /* ======================DESKTOP 1440px================ */
@@ -82,5 +138,21 @@
 
   .about-us-text {
     width: 481px;
+  }
+
+  .about-us-img {
+    background-image: url(../../img/about-us/background/about-us-bg-desktop-1440.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-size: 545px 484px;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+    .about-us-img {
+      background-image: url(../../img/about-us/background/about-us-bg-desktop-1440@2x.png);
+    }
   }
 }
