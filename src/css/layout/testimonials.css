@@ -1,13 +1,12 @@
 /* ==== Mobile ==== */
 
 .testimonials-section {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .testimonials-title {
   padding-bottom: 40px;
-  color: var(--white);
   font-size: 32px;
   font-weight: 500;
   line-height: 1.38;
@@ -74,8 +73,6 @@
 .user-comment-text {
   color: rgba(252, 249, 249, 0.4);
   text-align: center;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
 
   width: 291px;
@@ -122,6 +119,10 @@
 /* ==== Desktop - 1280px ==== */
 
 @media screen and (min-width: 1280px) {
+  .testimonials-list {
+    gap: 26px;
+  }
+
   .natalia-chatuk-comment {
     display: block;
   }
