@@ -24,6 +24,10 @@
   color: rgba(252, 249, 249, 0.4);
 }
 
+.section-colection > img{
+  min-width: 335px;
+}
+
 @media screen and (min-width: 768px) {
   .our-colection {
     padding-top: 50px;

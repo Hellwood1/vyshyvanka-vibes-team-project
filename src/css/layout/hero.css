@@ -1,6 +1,9 @@
-.hero-section {
+.hero{
   padding-top: 60px;
   padding-bottom: 40px;
+}
+.hero-section {
+  
   display: flex;
   flex-direction: column-reverse;
 }
@@ -49,9 +52,12 @@
 /* =====================TABLET================== */
 
 @media screen and (min-width: 768px) {
-  .hero-section {
+  .hero{
     padding-top: 80px;
     padding-bottom: 50px;
+  }
+  .hero-section {
+    
     position: relative;
   }
 
@@ -146,10 +152,12 @@
 /* ==================DESKTOP 1280px================== */
 
 @media screen and (min-width: 1280px) {
-
+.hero{
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
   .hero-section {
-    padding-top: 50px;
-    padding-bottom: 75px;
+   
     flex-direction: row;
   }
 
