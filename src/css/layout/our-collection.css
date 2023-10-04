@@ -4,7 +4,6 @@
   background-image: url(../../img/our-collection/background/collection-bg-mobile.png);
   background-repeat: no-repeat;
   background-position: 0 306px;
-  
 }
 .name-colections {
   margin-bottom: 40px;
@@ -23,40 +22,40 @@
   margin-top: 18px;
   margin-bottom: 8px;
   letter-spacing: 0.7px;
+  transition: border var(--timing-function), box-shadow var(--timing-function),
+    color var(--timing-function);
 }
 .colections-text {
   color: rgba(252, 249, 249, 0.4);
+  transition: color var(--timing-function);
 }
 
-.section-colection > img{
+.section-colection > img {
   min-width: 335px;
 }
 
-.section-colection:hover,
-.section-colection:focus{
+.section-colection:hover {
   border: 2px solid var(--yellow);
   border-radius: 4px;
-  color:var(--yellow);
   padding: 8px;
-  box-shadow: inset 0 0 20px var(--yellow) ;
+  box-shadow: inset 0 0 15px var(--yellow);
 }
-/* .card-img:hover,
-.card-img:focus{
-  border: 6px solid var(--yellow);
-  border-radius: 4px;
-}
-.name-colections-item:hover,
-.name-colections-item:focus{
+
+.section-colection:hover .name-colections-item {
   color: var(--yellow);
-} */
+}
+
+.section-colection:hover .colections-text {
+  color: var(--white);
+}
 
 @media screen and (min-width: 768px) {
   .our-colection {
     padding-top: 50px;
     padding-bottom: 100px;
     background-image: url(../../img/our-collection/background/collection-bg-tablet.png);
-  background-repeat: no-repeat;
-  background-position: 0 255px;
+    background-repeat: no-repeat;
+    background-position: 0 255px;
   }
   .item-colection {
     width: calc((100% - 20px) / 2);
@@ -70,8 +69,8 @@
     padding-top: 70px;
     padding-bottom: 150px;
     background-image: url(../../img/our-collection/background/collection-bg-desktop-1280.png);
-  background-repeat: no-repeat;
-  background-position: 0 278px;
+    background-repeat: no-repeat;
+    background-position: 0 278px;
   }
   .item-colection {
     width: calc((100% - 40px) / 3);
@@ -82,9 +81,9 @@
 }
 @media screen and (min-width: 1440px) {
   .our-colection {
-  background-image: url(../../img/our-collection/background/collection-bg-desktop-1440.png);
-  background-repeat: no-repeat;
-  background-position: 0 288px;
+    background-image: url(../../img/our-collection/background/collection-bg-desktop-1440.png);
+    background-repeat: no-repeat;
+    background-position: 0 288px;
   }
   .list-colections {
     justify-content: center;
