@@ -1,10 +1,9 @@
-.header-page{
+.header-page {
   margin-top: 20px;
   padding-top: 4px;
   padding-bottom: 4px;
 }
 .header-section {
- 
   display: flex;
   align-items: center;
 }
@@ -111,32 +110,39 @@
   }
 
   .phone-link:hover,
-  .phone-link:focus{
+  .phone-link:focus {
     border-color: var(--yellow);
   }
 
   .social-list {
     margin-left: 0;
+    margin-right: unset;
   }
 
   .social-link {
-    transition: scale var(--timing-function), border-color var(--timing-function);
+    transition: scale var(--timing-function),
+      border-color var(--timing-function);
   }
 
   .social-link:hover,
-  .social-link:focus{
+  .social-link:focus {
     scale: 1.15;
     border-color: var(--yellow);
-    animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+    animation: 1.2s ease-in-out 0s normal none infinite running
+      trambling-animation;
   }
   @keyframes trambling-animation {
-    0%, 50%, 100%{
+    0%,
+    50%,
+    100% {
       transform: rotate(0deg);
     }
-    10%, 30%{
+    10%,
+    30% {
       transform: rotate(-15deg);
     }
-    20%, 40%{
+    20%,
+    40% {
       transform: rotate(15deg);
     }
   }
