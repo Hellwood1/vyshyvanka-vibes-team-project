@@ -55,7 +55,7 @@
     padding-top: 80px;
     padding-bottom: 50px;
   }
-  .hero {
+  .hero-section {
     position: relative;
   }
 
@@ -141,7 +141,7 @@
   .ornament-img {
     display: block;
     position: absolute;
-    bottom: -47px;
+    bottom: -97px;
     right: 32px;
   }
 }
@@ -182,7 +182,6 @@
 
   .ornament-img {
     right: 100px;
-    bottom: -22px;
   }
 }
 
