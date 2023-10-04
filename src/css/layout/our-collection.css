@@ -22,12 +22,15 @@
   margin-top: 18px;
   margin-bottom: 8px;
   letter-spacing: 0.7px;
-  transition: border var(--timing-function), box-shadow var(--timing-function),
-    color var(--timing-function);
+  transition: color var(--timing-function);
 }
 .colections-text {
   color: rgba(252, 249, 249, 0.4);
   transition: color var(--timing-function);
+}
+
+.section-colection {
+  transition: border var(--timing-function), box-shadow var(--timing-function);
 }
 
 .section-colection > img {
