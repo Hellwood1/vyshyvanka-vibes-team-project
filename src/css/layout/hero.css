@@ -1,9 +1,8 @@
-.hero{
+.hero {
   padding-top: 60px;
   padding-bottom: 40px;
 }
 .hero-section {
-  
   display: flex;
   flex-direction: column-reverse;
 }
@@ -52,12 +51,11 @@
 /* =====================TABLET================== */
 
 @media screen and (min-width: 768px) {
-  .hero{
+  .hero {
     padding-top: 80px;
     padding-bottom: 50px;
   }
   .hero-section {
-    
     position: relative;
   }
 
@@ -68,7 +66,7 @@
   .hero-main-img {
     animation: left-to-rigth 1200ms ease both;
   }
-  
+
   @keyframes left-to-rigth {
     0% {
       opacity: 0;
@@ -145,19 +143,17 @@
     position: absolute;
     bottom: -47px;
     right: 32px;
-   
   }
 }
 
 /* ==================DESKTOP 1280px================== */
 
 @media screen and (min-width: 1280px) {
-.hero{
-  padding-top: 50px;
-  padding-bottom: 75px;
-}
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 75px;
+  }
   .hero-section {
-   
     flex-direction: row;
   }
 
@@ -165,7 +161,7 @@
     margin-right: 40px;
   }
 
-  .hero-content-wrap{
+  .hero-content-wrap {
     flex-grow: 1;
   }
 
@@ -178,36 +174,30 @@
     margin-right: 0;
     margin-top: 100px;
   }
-  
+
   .hero-icon-wrap {
     align-self: flex-start;
     margin-left: auto;
   }
-  
-  
+
   .ornament-img {
     right: 100px;
     bottom: -22px;
   }
-  
 }
 
 /* ======================DESKTOP 1440px================ */
 
 @media screen and (min-width: 1440px) {
-   
-    .hero-section{
-        align-items: center;
-    }
+  .hero-section {
+    align-items: center;
+  }
 
-    .hero-title{
-        margin-top: 0;
-        margin-right: 60px;
-        width: 625px;
-        font-size: 64px;
-        line-height: 1.16;
-    }
-
-    
-    
+  .hero-title {
+    margin-top: 0;
+    margin-right: 60px;
+    width: 625px;
+    font-size: 64px;
+    line-height: 1.16;
+  }
 }
