@@ -30,7 +30,8 @@
 }
 
 .section-colection {
-  transition: border var(--timing-function), box-shadow var(--timing-function);
+  transition: padding var(--timing-function), border var(--timing-function),
+    box-shadow var(--timing-function);
 }
 
 .section-colection > img {
