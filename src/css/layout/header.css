@@ -1,7 +1,10 @@
-.header-section {
+.header-page{
   margin-top: 20px;
   padding-top: 4px;
   padding-bottom: 4px;
+}
+.header-section {
+ 
   display: flex;
   align-items: center;
 }
@@ -60,7 +63,7 @@
 /* ====================DESKTOP 1280px */
 
 @media screen and (min-width: 1280px) {
-  .header-section {
+  .header-page {
     padding-top: 2px;
     padding-bottom: 2px;
   }

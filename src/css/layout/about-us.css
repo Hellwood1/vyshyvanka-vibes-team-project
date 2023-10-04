@@ -1,12 +1,14 @@
-
+.about-us-section{
+  padding-top: 40px;
+  padding-bottom: 62px;
+}
 
 .about-us-background-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 50px;
-  padding-top: 40px;
-  padding-bottom: 62px;
+  
 }
 
 .about-us-text-container {
@@ -51,7 +53,7 @@
 /* =====================TABLET================== */
 
 @media screen and (min-width: 768px) {
-  .about-us-container {
+  .about-us-section {
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -88,7 +90,7 @@
 /* ==================DESKTOP 1280px================== */
 
 @media screen and (min-width: 1280px) {
-  .about-us-container {
+  .about-us-section {
     padding-top: 75px;
     padding-bottom: 80px;
   }
