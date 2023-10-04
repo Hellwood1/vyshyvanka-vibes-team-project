@@ -12,6 +12,8 @@
   font-weight: 500;
   line-height: 1.38;
   letter-spacing: -0.96px;
+
+  animation: top-to-bottom 1200ms ease both;
 }
 
 .user-avatar {
@@ -69,6 +71,7 @@
 
 .testimonials-list-item {
   align-items: center;
+  animation: top-to-bottom 1200ms ease both;
 }
 
 .user-comment-text {
