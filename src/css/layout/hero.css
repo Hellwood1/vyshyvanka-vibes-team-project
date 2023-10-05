@@ -64,7 +64,8 @@
   }
 
   .hero-main-img {
-    animation: left-to-rigth 1200ms ease both;
+    animation: left-to-rigth 1800ms ease both;
+    animation-delay: .3s;
   }
 
   @keyframes left-to-rigth {
@@ -87,7 +88,8 @@
     width: 549px;
     font-size: 54px;
     line-height: 1.19;
-    animation: top-to-bottom 1200ms ease both;
+    animation: top-to-bottom 1800ms ease both;
+    animation-delay: .3s;
   }
 
   @keyframes top-to-bottom {
@@ -109,6 +111,8 @@
     gap: 16px;
     align-items: center;
     flex-direction: column;
+    animation: right-to-left 1800ms ease both;
+    animation-delay: .3s;
   }
 
   .hero-made-description {
@@ -117,11 +121,13 @@
     font-size: 16px;
     letter-spacing: -0.04em;
     text-align: center;
+    
   }
 
   .hero-btn {
     margin-left: 140px;
-    animation: right-to-left 1200ms ease both;
+    animation: right-to-left 1800ms ease both;
+    animation-delay: .3s;
   }
 
   @keyframes right-to-left {
@@ -143,6 +149,8 @@
     position: absolute;
     bottom: -97px;
     right: 32px;
+    animation: right-to-left 1800ms ease both;
+    animation-delay: .3s;
   }
 }
 
