@@ -68,7 +68,6 @@
 
 .testimonials-list-item {
   align-items: center;
-  animation: top-to-bottom 1200ms ease both;
 }
 
 .user-comment-text {
@@ -118,7 +117,6 @@
     font-size: 44px;
     line-height: 1.45;
     letter-spacing: -0.03em;
-    animation: left-to-rigth 1200ms ease-out both;
   }
 }
 
