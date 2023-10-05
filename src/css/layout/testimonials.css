@@ -68,6 +68,7 @@
 
 .testimonials-list-item {
   align-items: center;
+  animation: top-to-bottom 1200ms ease both;
 }
 
 .user-comment-text {
@@ -86,7 +87,7 @@
 /* ==== Tablet ==== */
 
 @media screen and (min-width: 768px) {
-  .testimonials-section{
+  .testimonials-section {
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -117,13 +118,14 @@
     font-size: 44px;
     line-height: 1.45;
     letter-spacing: -0.03em;
+    animation: left-to-rigth 1200ms ease-out both;
   }
 }
 
 /* ==== Desktop - 1280px ==== */
 
 @media screen and (min-width: 1280px) {
-  .testimonials-section{
+  .testimonials-section {
     padding-top: 150px;
     padding-bottom: 150px;
   }
